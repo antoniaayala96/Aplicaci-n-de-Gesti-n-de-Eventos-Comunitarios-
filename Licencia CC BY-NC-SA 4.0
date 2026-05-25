@@ -1,0 +1,22 @@
+
+## 2. Crea archivo `LICENSE.md`
+
+Pega:
+
+```md
+# Licencia Creative Commons
+
+Este proyecto está licenciado bajo Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International.
+
+Usted es libre de:
+
+- Compartir: copiar y redistribuir el material en cualquier medio o formato.
+- Adaptar: remezclar, transformar y construir a partir del material.
+
+Bajo los siguientes términos:
+
+- Atribución: debe dar crédito adecuado al autor.
+- No comercial: no puede utilizar el material con fines comerciales.
+- Compartir igual: si remezcla, transforma o crea a partir del material, debe distribuir sus contribuciones bajo la misma licencia.
+
+Licencia: CC BY-NC-SA 4.0
