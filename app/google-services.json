@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "485704618624",
+    "firebase_url": "https://comunidadactiva-f5312-default-rtdb.firebaseio.com",
+    "project_id": "comunidadactiva-f5312",
+    "storage_bucket": "comunidadactiva-f5312.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485704618624:android:ac027b67919feb1d3d8c65",
+        "android_client_info": {
+          "package_name": "com.antonia.comunidadactiva"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "485704618624-ffeda64mg3ljqvcmcvnas1uin9psq9qk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.antonia.comunidadactiva",
+            "certificate_hash": "9b87c5a6715effaf43bbafafc76a690f920e02b0"
+          }
+        },
+        {
+          "client_id": "485704618624-rqt1amr5qomnpk74j40sh9hca003mt0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAShx3tHu9Bfbnkwmc76UfcokuCyuVZcY0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "485704618624-rqt1amr5qomnpk74j40sh9hca003mt0q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

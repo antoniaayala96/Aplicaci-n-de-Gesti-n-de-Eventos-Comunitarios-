@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8FAFC"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Editar evento"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#1E293B" />
+
+        <EditText
+            android:id="@+id/etTituloEditar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:hint="Título"
+            android:inputType="text"
+            android:layout_marginTop="20dp" />
+
+        <EditText
+            android:id="@+id/etDescripcionEditar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="80dp"
+            android:padding="12dp"
+            android:hint="Descripción"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/etFechaEditar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:hint="Fecha"
+            android:inputType="date"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/etHoraEditar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:hint="Hora"
+            android:inputType="time"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/etUbicacionEditar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:hint="Ubicación"
+            android:inputType="text"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/etCategoriaEditar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:hint="Categoría"
+            android:inputType="text"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/etImagenUrlEditar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:hint="URL de imagen"
+            android:inputType="textUri"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/btnActualizarEvento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actualizar evento"
+            android:layout_marginTop="24dp" />
+
+    </LinearLayout>
+
+</ScrollView>

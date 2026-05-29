@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8FAFC"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Crear evento"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#1E293B" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Completa la información del evento comunitario"
+            android:textSize="15sp"
+            android:textColor="#64748B"
+            android:layout_marginBottom="20dp" />
+
+        <EditText
+            android:id="@+id/etTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:hint="Título del evento"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/etDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="80dp"
+            android:padding="12dp"
+            android:hint="Descripción"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/etFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:hint="Fecha Ej: 2026-05-30"
+            android:inputType="date"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/etHora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:hint="Hora Ej: 5:00 PM"
+            android:inputType="time"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/etUbicacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:hint="Ubicación"
+            android:inputType="text"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/etCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:hint="Categoría"
+            android:inputType="text"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/etImagenUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:hint="URL de imagen del evento opcional"
+            android:inputType="textUri"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/btnGuardarEvento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar evento"
+            android:layout_marginTop="24dp" />
+
+    </LinearLayout>
+
+</ScrollView>
